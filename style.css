@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: lightblue;
+    padding: 15px 0;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: lightblue;
+}
+
+.section {
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: none;
+}
+
+p{
+    text-align: center;
+}
+h2 {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ text-align: center;
+}
+/* Gaya untuk header */
+header {
+    background-color: lightblue; /* Warna latar belakang hijau */
+    color: white; /* Warna teks putih */
+    padding: 20px; /* Padding untuk ruang dalam */
+    text-align: center; /* Teks di tengah */
+}
+
+/* Gaya untuk navigasi */
+nav ul {
+    list-style-type: none; /* Menghilangkan bullet point */
+    padding: 0; /* Menghilangkan padding */
+    text-align: center; /* Teks di tengah */
+}
+
+nav ul li {
+    display: inline; /* Membuat menu horizontal */
+    margin-right: 15px; /* Jarak antara menu */
+}
+
+nav ul li a {
+    text-decoration: none; /* Menghilangkan garis bawah */
+    color: lightblue; /* Warna teks hijau */
+}
+
+/* Gaya untuk section */
+.section {
+    padding: 20px; /* Padding untuk ruang dalam */
+    margin: 20px; /* Margin untuk jarak antara elemen */
+    border: 1px solid #ddd; /* Garis batas abu-abu */
+    border-radius: 5px; /* Sudut yang melengkung */
+}
+
+/* Gaya untuk form login */
+#login {
+    max-width: 400px; /* Lebar maksimum form */
+    margin: auto; /* Memusatkan form */
+    padding: 20px; /* Padding untuk ruang dalam */
+    border: 1px solid lightblue; /* Garis batas hijau */
+    border-radius: 5px; /* Sudut yang melengkung */
+    background-color: #f9f9f9; /* Warna latar belakang form */
+}
+
+#login h2 {
+    text-align: center; /* Teks di tengah */
+}
+
+#login div {
+    margin-bottom: 15px; /* Jarak antar elemen form */
+}
+
+#login label {
+    display: block; /* Membuat label menjadi blok */
+    margin-bottom: 5px; /* Jarak di bawah label */
+}
+
+#login input[type="text"],
+#login input[type="password"] {
+    width: 100%; /* Lebar 100% dari elemen induk */
+    padding: 10px; /* Padding untuk ruang dalam */
+    border: 1px solid #ccc; /* Garis batas abu-abu muda */
+    border-radius: 4px; /* Sudut yang melengkung */
+}
+
+#login button {
+    background-color: lightblue; /* Warna latar belakang hijau */
+    color: white; /* Warna teks putih */
+    padding: 10px; /* Padding untuk ruang dalam */
+    border: none; /* Menghilangkan garis batas */
+    border-radius: 4px; /* Sudut yang melengkung */
+    cursor: pointer; /* Mengubah kursor saat hover */
+    width: 100%; /* Lebar 100% dari elemen induk */
+}
+
+#login button:hover {
+    background-color: lightblue; /* Warna latar belakang saat hover */
+}
+
+/* Gaya untuk footer */
+footer {
+    text-align: center; /* Teks di tengah */
+    padding: 10px; /* Padding untuk ruang dalam */
+    background-color: lightblue; /* Warna latar belakang hijau */
+    color: white; /* Warna teks putih */
+    position: relative; /* Mengatur posisi */
+    bottom: 0; /* Posisi footer di bawah */
+    width: 100%; /* Lebar 100% dari elemen induk */
+}
+/* Gaya untuk header */
+header {
+    background-color: lightblue; /* Warna latar belakang hijau */
+    color: white; /* Warna teks putih */
+    padding: 20px; /* Padding untuk ruang dalam */
+    text-align: center; /* Teks di tengah */
+}
+
+/* Gaya untuk navigasi */
+nav {
+    background-color: #333; /* Warna latar belakang navigasi */
+}
+
+nav ul {
+    list-style-type: none; /* Menghilangkan bullet point */
+    padding: 0; /* Menghilangkan padding */
+    text-align: center; /* Teks di tengah */
+}
+
+nav ul li {
+    display: inline; /* Membuat menu horizontal */
+    margin-right: 15px; /* Jarak antara menu */
+}
+
+nav ul li a {
+    text-decoration: none; /* Menghilangkan garis bawah */
+    color: white; /* Warna teks putih */
+    padding: 10px; /* Padding untuk ruang dalam */
+}
+
+nav ul li a:hover {
+    background-color: lightblue; /* Warna latar belakang saat hover */
+}
+
+/* Gaya untuk section */
+.section {
+    padding: 30px; /* Padding untuk ruang dalam */
+    margin: 30px auto; /* Margin untuk jarak antar elemen dan memusatkan */
+    max-width: 800px; /* Lebar maksimum section */
+    border: 1px solid #ddd; /* Garis batas abu-abu */
+    border-radius: 6px; /* Sudut yang melengkung */
+}
+
+/* Gaya untuk profil card */
+.profile-card {
+    display: flex; /* Menggunakan flexbox untuk layout */
+    align-items: center; /* Memusatkan elemen secara vertikal */
+    background-color: #f8f8f87a; /* Warna latar belakang card */
+    padding: 15px; /* Padding untuk ruang dalam */
+    border-radius: 8px; /* Sudut yang melengkung */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Bayangan untuk efek kedalaman */
+}
+
+.profile-img {
+    border-radius: 50%; /* Membuat gambar profil menjadi bulat */
+    width: 100px; /* Lebar gambar */
+    height: 100px; /* Tinggi gambar */
+    margin-right: 15px; /* Jarak antara gambar dan teks */
+}
+
+/* Gaya untuk footer */
+footer {
+    text-align: center; /* Teks di tengah */
+    padding: 10px; /* Padding untuk ruang dalam */
+    background-color: #63bac0; /* Warna latar belakang hijau */
+    color: white; /* Warna teks putih */
+    position: relative; /* Mengatur posisi */
+    bottom: 0; /* Posisi footer di bawah */
+    width: 100%; /* Lebar 100% dari elemen induk */
+}
+ base { background-color:lightblue;}

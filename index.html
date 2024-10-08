@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Website Ndaa - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Website Ndaa</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="profil.html">Profil</a></li>
+        <li><a href="jadwal.html">Jadwal Pelajaran</a></li>
+        <li><a href="galeri.html">Galeri</a></li>
+    </ul>
+</nav>
+
+<section class="section" id="home">
+    <h2>Selamat Datang!</h2>
+    <p>Selamat datang di website kelas XI RPL 2. Di sini Anda bisa menemukan berbagai informasi mengenai profil kelas, jadwal pelajaran, serta galeri kegiatan kami.</p>
+</section>
+
+<section class="section" id="login">
+    <h2>Login</h2>
+    <form action="proses_login.php" method="POST">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div>
+            <button type="submit">Login</button>
+        </div>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 XI RPL 2</p>
+</footer>
+
+</body>
+</html>
